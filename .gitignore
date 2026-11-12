@@ -1,0 +1,23 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local database
+db.sqlite3
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Python test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# macOS files
+.DS_Store
